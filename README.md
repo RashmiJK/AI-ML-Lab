@@ -80,7 +80,7 @@ Based on the fine-tuning appraoch LLMs can be grouped into below categories.
 4. Domain Specific Language Models
 
 ### Neural Networks in Generative AI
-Deep learning is a subset of machine learning which inturn falls under the broader umberella of artifical intelligence. They are complex neural networks of interconnected nodes. 
+Deep learning is a subset of machine learning which inturn falls under the broader umberella of artifical intelligence. It is a subfiled of machine learning that involves training artifical neural networks with many layers (deep neural networks) to perform tasks such as image and speech recognition.
 
 Large language models are powered by neural networks. A neural network in AI is a system modeled after the human brain's network of neurons. The key terms in such a network are:
 
