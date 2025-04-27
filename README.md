@@ -9,18 +9,26 @@ Below are the three major branches of machine learning.
 1. Supervised learning  
 Supervised learning involves training a model with input data and the expected output. The model learns the relationship between the input and output to make predictions on new data.
 Examples: Image recognition, text prediction, and spam filtering.
+Two types of supervised learning:
+    * **Classification** => Predicts a category or class (e.g., spam or not spam).
+    * **Regression** => Predicts a continuous numerical value (e.g., house price).
 
 2. Unupervised learning  
 Unsupervised learning involves providing the machine with input data without labeled responses. The machine identifies hidden patterns or relationships in the data.
-Examples: Movie recommendation systems and customer segmentation for marketing.
+Examples: Movie recommendation systems and customer segmentation for marketing.  
+Two types of unsupervised learning:  
+    * **Clustering**: Groups data points into clusters based on their similarities, helping to identify patterns or structures in the data.  
+    * **Dimensionality Reduction**: Reduces the number of features in a dataset while retaining its essential information, making it easier to visualize and analyze.  
 
 3. Reinforcement learning  
 Reinforcement learning involves an agent interacting with an environment, taking actions, and receiving feedback. The agent learns the optimal sequence of actions to achieve a goal through trial and error.
 Examples: Computer game engines, robotics, and self-driving cars.
 
-![](images/ml_branches.png)
+![Confluence of the World of Data: Branches of Machine Learning](images/ml_branches.png "Confluence of the World of Data: Branches of Machine Learning")
 
-## Machine learning process includes the following steps.  
+![Types of Machine Learning](images/types_ml.svg "Types of Machine Learning")
+
+## Steps in the Machine Learning Process  
 1. Data collection - Gathering the necessary data for machine learning, whether labeled or unlabeled.
 
 2. Data Exploration - Describing, visualizing, and analyzing data to better understand its characteristics.
@@ -101,5 +109,8 @@ GANs (Generative Adversarial Networks) consist of two neural networks: a generat
 
 Both architectures are revolutionary in their respective domains but serve different purposes and operate differently.
 
+## Libraries available for Machine Learning 
+Scikit learn => Algorithms
 
+Deep learning => Keras and TensorFlow (google) and PyTorch (meta) => Objective is same, using for deep learning
 

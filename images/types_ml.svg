@@ -1,0 +1,105 @@
+<svg viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main center node -->
+  <circle cx="450" cy="275" r="60" fill="#333333" />
+  <text x="450" y="270" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="18">Machine</text>
+  <text x="450" y="290" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="18">Learning</text>
+  
+  <!-- Supervised Learning -->
+  <circle cx="650" cy="275" r="50" fill="#993333" />
+  <text x="650" y="270" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Supervised</text>
+  <text x="650" y="290" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Learning</text>
+  <line x1="510" y1="275" x2="600" y2="275" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Regression -->
+  <circle cx="750" cy="375" r="40" fill="#8CC084" />
+  <text x="750" y="380" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Regression</text>
+  <line x1="690" y1="310" x2="720" y2="345" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Weather forecasting - FIXED POSITIONING -->
+  <circle cx="810" cy="325" r="15" fill="#A3D39C" />
+  <text x="850" y="325" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">weather</text>
+  <text x="850" y="340" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">forecasting</text>
+  <line x1="785" y1="360" x2="810" y2="340" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Sales forecasting - FIXED POSITIONING -->
+  <circle cx="810" cy="425" r="15" fill="#A3D39C" />
+  <text x="850" y="425" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">sales</text>
+  <text x="850" y="440" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">forecasting</text>
+  <line x1="785" y1="390" x2="810" y2="415" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Classification -->
+  <circle cx="750" cy="175" r="40" fill="#E6A945" />
+  <text x="750" y="180" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Classification</text>
+  <line x1="690" y1="240" x2="720" y2="205" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Fraud detection - FIXED POSITIONING -->
+  <circle cx="810" cy="125" r="15" fill="#F3CA82" />
+  <text x="850" y="125" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">fraud</text>
+  <text x="850" y="140" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">detection</text>
+  <line x1="785" y1="155" x2="810" y2="135" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Covid classification - FIXED POSITIONING -->
+  <circle cx="810" cy="225" r="15" fill="#F3CA82" />
+  <text x="850" y="225" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">covid</text>
+  <text x="850" y="240" text-anchor="start" fill="#666666" font-family="Arial" font-size="12">classification</text>
+  <line x1="785" y1="195" x2="810" y2="215" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Unsupervised Learning - ENLARGED -->
+  <circle cx="250" cy="275" r="55" fill="#3D7890" />
+  <text x="250" y="270" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Unsupervised</text>
+  <text x="250" y="290" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Learning</text>
+  <line x1="390" y1="275" x2="305" y2="275" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Dimensionality Reduction -->
+  <circle cx="150" cy="175" r="40" fill="#4682B4" />
+  <text x="150" y="170" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="14">Dimensionality</text>
+  <text x="150" y="190" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="14">Reduction</text>
+  <line x1="210" y1="240" x2="180" y2="205" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Meaningful compression - FIXED POSITIONING -->
+  <circle cx="90" cy="125" r="15" fill="#7EB3D5" />
+  <text x="50" y="90" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">meaningful</text>
+  <text x="50" y="105" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">compression</text>
+  <line x1="115" y1="155" x2="90" y2="135" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Structure discovery -->
+  <circle cx="210" cy="125" r="15" fill="#7EB3D5" />
+  <text x="250" y="120" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">structure</text>
+  <text x="250" y="135" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">discovery</text>
+  <line x1="185" y1="155" x2="205" y2="135" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Clustering -->
+  <circle cx="150" cy="375" r="40" fill="#C48093" />
+  <text x="150" y="380" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Clustering</text>
+  <line x1="210" y1="310" x2="180" y2="345" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Customer segmentation - FIXED POSITIONING -->
+  <circle cx="90" cy="325" r="15" fill="#E0B0B8" />
+  <text x="50" y="295" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">customer</text>
+  <text x="50" y="310" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">segmentation</text>
+  <line x1="115" y1="345" x2="90" y2="325" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Targeted marketing - FIXED POSITIONING -->
+  <circle cx="90" cy="425" r="15" fill="#E0B0B8" />
+  <text x="50" y="455" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">targeted</text>
+  <text x="50" y="470" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">marketing</text>
+  <line x1="115" y1="395" x2="90" y2="425" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Reinforcement Learning - ENLARGED -->
+  <circle cx="450" cy="425" r="55" fill="#1A4989" />
+  <text x="450" y="420" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Reinforcement</text>
+  <text x="450" y="440" text-anchor="middle" fill="white" font-family="Arial" font-weight="bold" font-size="16">Learning</text>
+  <line x1="450" y1="335" x2="450" y2="370" stroke="#666666" stroke-width="2" stroke-dasharray="5,5" />
+  
+  <!-- Robot navigation -->
+  <circle cx="380" cy="345" r="15" fill="#3A67B1" />
+  <text x="340" y="340" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">robot</text>
+  <text x="340" y="355" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">navigation</text>
+  <line x1="420" y1="375" x2="380" y2="345" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- Gaming AI -->
+  <circle cx="520" cy="345" r="15" fill="#3A67B1" />
+  <text x="560" y="340" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">gaming</text>
+  <text x="560" y="355" text-anchor="middle" fill="#666666" font-family="Arial" font-size="12">AI</text>
+  <line x1="480" y1="375" x2="520" y2="345" stroke="#666666" stroke-width="1" stroke-dasharray="5,5" />
+</svg>
