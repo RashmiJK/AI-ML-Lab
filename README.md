@@ -121,3 +121,12 @@ Deep learning => Keras and TensorFlow (google) and PyTorch (meta) => Objective i
 Hallucination is the phenomenon where AI models generate plausible but incorrect or nonsensical information.  
 
 [**1. A brief summary of reasons why hallucinations occur in AI models**](docs/hallucination_reasons.md "A brief summary of reasons why hallucinations occur in AI models")
+
+To-do:
+What is stable diffusion? what are diffusion models?
+Supervised fine-tuning (SFT)
+Reinforcemnt learning with human feedback (RLHF)
+Distillation
+Tranformers pipeline
+Auto classes with the generate()
+
