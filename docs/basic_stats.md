@@ -2,13 +2,13 @@
 
 ### Probability, Conditional probability, Bayes Rule
 
-$P(Probability of an event occurring) = \frac{\text{outcomes associated with the event}}{\text{Total of outcomes}}$.
+$P(Probability\ of\ an\ event\ occurring) = \frac{\text{outcomes associated with the event}}{\text{Total of outcomes}}$.
 
 Conditional Probability : The probability of an event happening, given that another event has already happened.  
-$P(Probability of event A happening given B) = \frac{\text{Probability of both events A and B happening}}{\text{Probability of event B happening}}$.
+$P(Probability\ of\ event\ A\ happening\ given\ B) = \frac{\text{Probability of both events A and B happening}}{\text{Probability of event B happening}}$.
 
 Bayes Rule : Determine probability of a hypothesis based on prior knowledge and new evidence.  
-$P(Probability of A happening given B) = \frac{\text{Probability of B happening given A  } * \text{  Probability of A happening}}{\text{Probability of event B happenning}}$.
+$P(Probability\ of\ A\ happening\ given\ B) = \frac{\text{Probability of B happening given A  } * \text{  Probability of A happening}}{\text{Probability of event B happenning}}$.
 
 ### Types of statistics
 

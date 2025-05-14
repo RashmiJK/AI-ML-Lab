@@ -14,3 +14,6 @@
 3. Decoding Strategies and Generation Techniques
 
     The methods employed during the text generation phase, such as top-k sampling or nucleus sampling, aim to enhance the diversity and creativity of the model's outputs. However, these techniques can also increase the likelihood of producing hallucinations, especially when the model ventures beyond well-represented knowledge areas. The balance between generating novel content and maintaining factual accuracy is delicate, and certain decoding strategies may inadvertently favor the former at the expense of the latter.
+
+    ## Jailbreaking
+    Trying to manipulate a bot into making what it's not supposed to do is known as jailbreaking.
