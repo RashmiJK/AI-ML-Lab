@@ -1,6 +1,6 @@
 ## Techniques for improving performance
 
-Fine-tuning and knowledge distillation are essential techniques for adapting and optimizing the performance of large language models (LLMs) for specific tasks. These methods serve distinct purposes but can also be used together to achieve optimal results. For example, a model can first be fine-tuned for a specific task, and its knowledge can then be distilled into a smaller, more efficient model for deployment.
+Fine-tuning and knowledge distillation are essential techniques for adapting and **optimizing** the performance of large language models (LLMs) for specific tasks. These methods serve distinct purposes but can also be used together to achieve optimal results. For example, a model can first be fine-tuned for a specific task, and its knowledge can then be distilled into a smaller, more efficient model for deployment.
 
 | Feature             | Fine-tuning                                      | Distilling                                                   |
 |---------------------|--------------------------------------------------|-------------------------------------------------------------|
@@ -18,7 +18,7 @@ Fine-tuning involves taking a pre-trained LLM and further training it on a small
 How it works:  
 **Data**: Requires a labeled dataset relevant to the target task. The dataset size is typically smaller than the original pre-training data but needs to be of high quality and representative of the desired outputs.  
 **Training**: The entire (or a significant portion of) the pre-trained model's weights are adjusted based on the new data using techniques like backpropagation.   
-**Goal**: To improve the model's performance and accuracy on a specific downstream task while retaining its general language understanding capabilities.   
+**Goal**: To improve the model's performance and accuracy on a specific downstream task while retaining its general language understanding capabilities.   
 **Output**: Results in a new model with updated weights that is better suited for the specific task. The model size remains the same as the original pre-trained model.  
 
 Examples:  

@@ -1,3 +1,14 @@
+## Problems with LLMs
+1. Hallucination  
+    *  Extrinsic hallucination - Output is inconsistent with the heneral knowledge
+    * In-cintext hallucination
+2. Bias
+    * Sample bias
+    * Label bias
+    * Reporting bias
+    * Moide collapsing
+3. Jailbreaking
+
 ## Below are the few reasons why LLMs like GPT-4 may produce hallucinations
 
 
@@ -17,3 +28,4 @@
 
     ## Jailbreaking
     Trying to manipulate a bot into making what it's not supposed to do is known as jailbreaking.
+

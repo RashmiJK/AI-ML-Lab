@@ -129,4 +129,6 @@ Reinforcemnt learning with human feedback (RLHF)
 Distillation
 Tranformers pipeline
 Auto classes with the generate()
+Diffusion model
+Quantization - storing the LLM parameters or some of them in lower-bit representation
 
