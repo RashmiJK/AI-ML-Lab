@@ -1,12 +1,12 @@
 ## Problems with LLMs
 1. Hallucination  
     *  Extrinsic hallucination - Output is inconsistent with the heneral knowledge
-    * In-cintext hallucination
+    *  Intrinsic hallucination
 2. Bias
     * Sample bias
     * Label bias
     * Reporting bias
-    * Moide collapsing
+    * Mode collapsing
 3. Jailbreaking
 
 ## Below are the few reasons why LLMs like GPT-4 may produce hallucinations

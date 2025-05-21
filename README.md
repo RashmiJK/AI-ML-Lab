@@ -110,6 +110,9 @@ GANs (Generative Adversarial Networks) consist of two neural networks: a generat
 
 Both architectures are revolutionary in their respective domains but serve different purposes and operate differently.
 
+## Model building  
+![](images/model_building.png)
+
 ## Libraries available for Machine Learning 
 Scikit learn => Algorithms
 
