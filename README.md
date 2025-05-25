@@ -22,7 +22,10 @@ Two types of unsupervised learning:
 
 3. Reinforcement learning  
 Reinforcement learning involves an agent interacting with an environment, taking actions, and receiving feedback. The agent learns the optimal sequence of actions to achieve a goal through trial and error.
-Examples: Computer game engines, robotics, and self-driving cars.
+Examples: Computer game engines, robotics, and self-driving cars.  
+
+4. Self-supervised learning  
+Is a type of training in which the objective is automatically computed from the inputs of the model. That means that humans are not needed to label the data.    
 
 ![Confluence of the World of Data: Branches of Machine Learning](images/ml_branches.png "Confluence of the World of Data: Branches of Machine Learning")
 
@@ -78,8 +81,34 @@ In the context of Natural Language Processing, Generative AI models focus produc
 
 Large Language Models are Generative AI models that are really good at undertsanding and generating humanlike text based on the input they receive called prompt. They are powered by **Transformer**, a type of neural network.
 
+What's the difference between NLP and LLM -
+* NLP (Natural Language Processing) is the broader field focused on enabling computers to understand, interpret, and generate human language. NLP encompasses many techniques and tasks such as sentiment analysis, named entity recognition, and machine translation.  
+    - **Classifying whole sentences**  
+        - Sentiment analysis of reviews
+        - Spam detection in emails
+        - Grammatical correctness checking
+        - Determining logical relationships between sentences
+
+    - **Classifying each word in a sentence**  
+        - Part-of-speech tagging (noun, verb, adjective, etc.)
+        - Named entity recognition (person, location, organization)
+
+    - **Generating text content**  
+        - Text completion from prompts
+        - Filling in blanks with masked words
+
+    - **Extracting an answer from a text**  
+        - Question answering based on provided context
+
+    - **Generating a new sentence from an input text**  
+        - Machine translation
+        - Text summarization
+* LLMs (Large Language Models) are a powerful subset of NLP models characterized by their massive size, extensive training data, and ability to perform a wide range of language tasks with minimal task-specific training. Models like the Llama, GPT, or Claude series are examples of LLMs that have revolutionized what’s possible in NLP.
+
 ### Transfer learning or Fine tuning
-A technique that involves taking a general-purpose foundation model that has been pre-trained on a large and diverse data set and then adapting it to perform specific tasks. This process leverages the prior knowledge gained during the initial training phase and applies additional training using a smaller, domain-specific data set. This allows the model to specialize and excel in tasks relevant to a particular field, making it more effective and contextually relevant for specific applications.
+**Pretraining** is the act of training a model from scratch: the weights are randomly initialized, and the training starts without any prior knowledge.
+
+**Fine-tuning**, on the other hand, is the training done after a model has been rained. Its technique that involves taking a general-purpose foundation model that has been pre-trained on a large and diverse data set and then adapting it to perform specific tasks. This process leverages the prior knowledge gained during the initial training phase and applies additional training using a smaller, domain-specific data set. This allows the model to specialize and excel in tasks relevant to a particular field, making it more effective and contextually relevant for specific applications.
 
 Based on the fine-tuning appraoch LLMs can be grouped into below categories.
 1. Generic Language Models
@@ -116,7 +145,11 @@ Both architectures are revolutionary in their respective domains but serve diffe
 ## Libraries available for Machine Learning 
 Scikit learn => Algorithms
 
-Deep learning => Keras and TensorFlow (google) and PyTorch (meta) => Objective is same, using for deep learning
+Deep learning => Keras and TensorFlow (google) and  (meta) => Objective is same, using for deep learning
+    1. PyTorch => by Meta => A toolbox that helps you build and train AI models
+
+[Libs overview and comparision](docs/ml_libs.md)
+
 
 ## Challenges in AI systems
 

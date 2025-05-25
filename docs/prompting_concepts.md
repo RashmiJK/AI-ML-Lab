@@ -18,9 +18,22 @@ Low Top-p (0.7): Considers a smaller set of probable words, leading to more focu
 High Top-p (0.9 - 1.0): Includes a broader range of words, allowing for more creativity and diversity in the output.  
 
 ### Top-k Threshold
-Restricts the model to choosing from the k most probable words at each step.  
+Restricts the model to choose from the k most probable words at each step.  
 Low Top-k (e.g., 5): Yields predictable and precise responses.  
 High Top-k (e.g., 50): Increases diversity and richness in outputs.  
+
+# Sampling Parameters in Language Models
+
+This table compares the three main sampling parameters used during text generation with language models: `temperature`, `top-k`, and `top-p`.
+
+| Parameter     | Purpose                            | Behavior                                     | Example Setting | Effect Description                                               |
+|---------------|------------------------------------|----------------------------------------------|------------------|------------------------------------------------------------------|
+| `temperature` | Controls randomness in sampling     | Scales the logits before sampling            | `temperature=0.7` | Lower values = more deterministic; higher = more diverse output |
+| `top-k`       | Limits to top k likely tokens       | Selects from top `k` highest probability tokens | `top_k=50`       | Only considers the top 50 tokens for sampling                   |
+| `top-p`       | Nucleus sampling (probability mass) | Selects smallest set with cumulative prob ≥ `p` | `top_p=0.9`      | Dynamically includes tokens until 90% of total probability is reached |
+
+---
+
 
 ## Prompting techniques
 **Few-shot prompting** involves providing examples to guide the AI in producing accurate, structured, and context-specific outputs.  
