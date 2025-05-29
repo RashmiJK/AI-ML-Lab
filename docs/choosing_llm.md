@@ -38,8 +38,10 @@ To establish guardrails, we need to set a framework of LLM operations using a sy
 1. Chatbot Arena : An Open Platform for Evaluating LLMs by Human Preference (developed by researchers at UC Berkeley SkyLab and LMArena). LMArena is an open-source platform for crowdsourced AI benchmarking, created by researchers from UC Berkeley SkyLab.  
 [Chatbot Arena LLM Leaderboard](https://lmarena.ai/?leaderboard)
 
-Numerical comparision of LLMs. Refer to benchmarks. Few as examples below.
+Numerical comparision of LLMs. Refer to benchmarks. Few as examples below:
+
 2. MT-Bench : A set of challenging multi-turn questions graded by GPT-4.  
+
 3. MMLU : Massive Multitask Language Understanding : which accesses world knowledge and problem-solving ability across a range of topics and difficulty levels : a test to measure model's multitask accuracy on 57 tasks, from Abstract Algenra to Virology.  
 
  Specialized LLMs
@@ -50,3 +52,13 @@ Numerical comparision of LLMs. Refer to benchmarks. Few as examples below.
  ### Benchmarks
  MTEB - Massive text embedding benchmark
  SWE-bench - SW Engineering benchmark - https://www.swebench.com
+
+ https://huggingface.co/spaces/allenai/WildBench : Benchmarking LLMs with Challenging Tasks from Real Users in the Wild.  
+ https://huggingface.co/blog/leaderboard-patronus: Evaluating the performance of language models on FinanceBench, Legal Confidentiality, Creative Writing, Customer Support Dialogue, Toxicity, and Enterprise PII.  
+ https://huggingface.co/blog/leaderboard-decodingtrust: Evaluating LLMs from the point of view of toxicity, stereotype bias, adversarial robustness, out-of-distribution robustness, robustness on adversarial demonstrations, privacy, machine ethics, and fairness.  
+ https://huggingface.co/blog/leaderboard-hallucinations    
+ https://balrogai.com  
+
+
+
+ 
