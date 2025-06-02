@@ -5,3 +5,5 @@ __pycache__/
 *.env
 .DS_Store
 AI_Application_Case_Study_Hotel_Booking_Cancellation_Prediction_v2_0.ipynb
+Hands_on_Notebook_NumPy_v1.ipynb
+Hands_on_Notebook_Pandas-1.ipynb
