@@ -31,6 +31,8 @@ Is a type of training in which the objective is automatically computed from the 
 
 ![Types of Machine Learning](images/types_ml.svg "Types of Machine Learning")
 
+![](images/machine_learning.png)
+
 ## Steps in the Machine Learning Process  
 1. Data collection - Gathering the necessary data for machine learning, whether labeled or unlabeled.
 
@@ -108,7 +110,7 @@ What's the difference between NLP and LLM -
 ### Transfer learning or Fine tuning
 **Pretraining** is the act of training a model from scratch: the weights are randomly initialized, and the training starts without any prior knowledge.
 
-**Fine-tuning**, on the other hand, is the training done after a model has been rained. Its technique that involves taking a general-purpose foundation model that has been pre-trained on a large and diverse data set and then adapting it to perform specific tasks. This process leverages the prior knowledge gained during the initial training phase and applies additional training using a smaller, domain-specific data set. This allows the model to specialize and excel in tasks relevant to a particular field, making it more effective and contextually relevant for specific applications.
+**Fine-tuning**, on the other hand, is the training done after a model has been trained. It's a technique that involves taking a general-purpose foundation model that has been pre-trained on a large and diverse data set and then adapting it to perform specific tasks. This process leverages the prior knowledge gained during the initial training phase and applies additional training using a smaller, domain-specific data set. This allows the model to specialize and excel in tasks relevant to a particular field, making it more effective and contextually relevant for specific applications.
 
 Based on the fine-tuning appraoch LLMs can be grouped into below categories.
 1. Generic Language Models
@@ -159,12 +161,14 @@ Hallucination is the phenomenon where AI models generate plausible but incorrect
 [**1. A brief summary of reasons why hallucinations occur in AI models**](docs/hallucination_reasons.md "A brief summary of reasons why hallucinations occur in AI models")
 
 To-do:
-What is stable diffusion? what are diffusion models?
-Supervised fine-tuning (SFT)
-Reinforcemnt learning with human feedback (RLHF)
-Distillation
-Tranformers pipeline
-Auto classes with the generate()
-Diffusion model
-Quantization - storing the LLM parameters or some of them in lower-bit representation
+What is stable diffusion? what are diffusion models?  
+Supervised fine-tuning (SFT)  
+Reinforcemnt learning with human feedback (RLHF)  
+Distillation  
+Tranformers pipeline  
+Auto classes with the generate()  
+Diffusion model  
+Quantization - storing the LLM parameters or some of them in lower-bit representation  
+RNN (Recurrent Neural Network) -   
+Logits    
 

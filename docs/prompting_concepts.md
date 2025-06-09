@@ -2,7 +2,7 @@
 ### Temperature
 This value defines how deterministic your answers will be. Higher the temperature, response/output will be more creative. Value ranges from 0 to 2.
 
-<img src="../images/temperature.png" alt="Prefix sum" width="400" height="300">
+<img src="../images/temperature.png" alt="Prefix sum" width="600" height="300">
 
 Lower temperature sharpens the probability distribution making likely words more probable, which is perfect for tasks that require precision. Higher temperature flattens the distribution, giving the less likely words a better chance of being selected, which works well for creative writing.
 
@@ -44,7 +44,7 @@ This table compares the three main sampling parameters used during text generati
 
 **Problem decomposition** prompting breaking down big tasks into smaller, manageable subtasks. Example laying down steps to build a data visualization code. (Step1) Data loading function (step 2) Data preprocessing (step 3) Analysis functions (step 4) Visualization (step 5) Final integration 
 
-**Constitutional prompting** s a type of problem decomposition that provides the AI with a set of guiding principles before it generates a response. These rules can include ethical, stylistic, or functional guidelines to align the output with specific needs.  
+**Constitutional prompting** is a type of problem decomposition that provides the AI with a set of guiding principles before it generates a response. These rules can include ethical, stylistic, or functional guidelines to align the output with specific needs.  
 
 **Plan-and-solve prompting** focuses on creating a detailed plan before tackling a problem. This method ensures clarity and precision, making it particularly effective for complex tasks.
 

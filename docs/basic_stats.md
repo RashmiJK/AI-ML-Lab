@@ -31,3 +31,6 @@ Examples:
 4. **ANOVA (Analysis of Variance)**: Comparing the means of multiple groups (e.g., test scores of students from different schools) to determine if there are significant differences.
 
 Inferential statistics helps generalize findings from a sample to a larger population while accounting for uncertainty.
+
+#### 24 Statistics Concepts
+![](../images/stastics_concepts.jpeg)

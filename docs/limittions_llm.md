@@ -1,6 +1,6 @@
 ## Problems with LLMs
 1. Hallucination - generate incorrect information confidently. 
-    *  Extrinsic hallucination - Output is inconsistent with the heneral knowledge
+    *  Extrinsic hallucination - Output is inconsistent with the general knowledge
     *  Intrinsic hallucination
 2. Lack of true understanding - Operate on statostical patterns, not true comprehension.
 3. Bias
