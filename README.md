@@ -19,6 +19,7 @@ Examples: Movie recommendation systems and customer segmentation for marketing.
 Two types of unsupervised learning:  
     * **Clustering**: Groups data points into clusters based on their similarities, helping to identify patterns or structures in the data.  
     * **Dimensionality Reduction**: Reduces the number of features in a dataset while retaining its essential information, making it easier to visualize and analyze.  
+    * **Association rule learning**: If X then Y
 
 3. Reinforcement learning  
 Reinforcement learning involves an agent interacting with an environment, taking actions, and receiving feedback. The agent learns the optimal sequence of actions to achieve a goal through trial and error.
