@@ -29,36 +29,6 @@ Understanding the relationship between model complexity and prediction error is 
 
 ## Machine learning types
 
-### Linear Regression
-<u>**Linear regression**</u> is a fundamental supervised learning algorithm used to model the relationship between a dependent variable and one or more independent variables by fitting a straight line to the observed data. It is used to predict continuous outcomes and understand how changes in input features affect the output, making it valuable for tasks such as forecasting, trend analysis, and identifying correlations in data.
-
-In the context of linear regression, a “best fit line” refers to a straight line that is drawn through a set of data points on a scatter plot to best represent the relationship between the independent variable (usually denoted as X) and the dependent variable (usually denoted as Y). The goal of this line is to minimize the difference between the observed values and the values predicted by the line.
-The best fit line is usually determined using the method of least squares. This mathematical approach involves finding the line that minimizes the sum of the squares of the differences (errors) between the observed values and the values predicted by the line. This line is often called the “regression line.”  
-
-<img src="../images/method_of_least_squares.png" alt="Prefix sum" width="500" height="300">  
-
-<u>**Multiple linear regression**</u> extends simple linear regression by modeling the relationship between a dependent variable and two or more independent variables. Instead of fitting a line in two-dimensional space, it fits a hyperplane in higher dimensions. This approach allows the model to account for the influence of several features on the outcome simultaneously.
-
-The general form of the multiple linear regression equation is:
-
-```
-Y = β₀ + β₁X₁ + β₂X₂ + ... + βₙXₙ + ε
-```
-
-Where:
-- **Y** is the dependent variable,
-- **X₁, X₂, ..., Xₙ** are independent variables,
-- **β₀** is the intercept,
-- **β₁, β₂, ..., βₙ** are the coefficients for each independent variable,
-- **ε** is the error term.
-
-Multiple linear regression is widely used for predicting outcomes and understanding the impact of several factors on a target variable, such as in economics, biology, and social sciences.  
-<img src="../images/multiple_linear_regression.png" alt="Prefix sum" width="500" height="300">
-
-<u>**Categorical variables**</u> in regression are inlcuded by converting them to numerical representations.  
-
-<u>Label encoding</u> -  
-<img src="../images/label_encoding.png" alt="Prefix sum" width="500" height="300">
-
-<u>One-hot encoding</u> -  
-<img src="../images/one_hot_encoding.png" alt="Prefix sum" width="500" height="300">
+1. [Linear regression](linear_regression.md)  
+2. Decision trees
+3. K-Means Clustering
