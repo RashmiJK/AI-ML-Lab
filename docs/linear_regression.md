@@ -7,6 +7,8 @@ The best fit line is usually determined using the method of least squares. This 
 
 <img src="../images/method_of_least_squares.png" alt="Prefix sum" width="500" height="300">  
 
+In short, linear regression refers to finding the best-fitting straight line through the data points by minimizing the sum of squared differences between the observed and predicted values.
+
 ### <u>**Multiple linear regression**</u> 
 extends simple linear regression by modeling the relationship between a dependent variable and two or more independent variables. Instead of fitting a line in two-dimensional space, it fits a hyperplane in higher dimensions. This approach allows the model to account for the influence of several features on the outcome simultaneously.
 
@@ -143,8 +145,58 @@ In regression models:
 Aims to accurately represent the relationship between independent and dependent variables.
 * Goal: To find the optimal set of parameters that minimize prediction error for the dataset.
 
-1 Questions - 
-<1> Evaluation metrics, needs explanation. 
-<2> Ask for quick gradient descent explanation. 
-<3> pd.dummies vs OneHotEncoder
-<4> LabelEncoder vs using map on data frame
+1 Questions -  
+<1> Evaluation metrics, needs explanation.  
+<2> Ask for quick gradient descent explanation.  
+<3> pd.dummies vs OneHotEncoder.  
+<4> LabelEncoder vs using map on data frame. 
+
+### Linear Regression Analysis Outline
+
+Here's a structured outline for the linear regression analysis, represented as a flow chart for easy understanding and future editing.
+
+1. Problem and Data:  
+Understand goal: forecast sales, find influencers.  
+Review objectives: sales forecast, key factors.  
+Know data meaning (Data Dictionary).  
+
+2. Load and Inspect:  
+Import libraries.  
+Load data (Sales.csv).  
+Copy data.  
+Check first rows (.head()).  
+Get shape (.shape).  
+See types (.info()).  
+Summarize numbers (.describe()).  
+
+3. Clean Data:  
+Check missing (.isnull().sum()).  
+Check duplicates (.duplicated().sum()).  
+
+4. Explore Data (EDA):  
+Univariate: Histograms (numbers), Box plots (numbers), Count plots (categories).  
+Bivariate: Pair plots, Correlation heatmap, Box plots (Sales vs categories).  
+
+5. Prepare for Model:  
+Define X (features), y (target).  
+Encode Popularity (label).  
+Encode Region (one-hot).  
+Split data (train/test).  
+
+6. Build Models:  
+Simple LR (Sales vs single feature).  
+Multiple LR (Sales vs feature combinations).  
+Multiple LR (Sales vs all features).  
+For each: Create, Fit, Print coefficients/intercept, (Plot for simple LR).  
+
+7. Evaluate Models:  
+Define MAPE, Adjusted R-squared functions.  
+Define function for all metrics (RMSE, MAE, MAPE, R2, Adj R2).  
+Evaluate each model (train/test sets).  
+
+8. Compare Models:  
+Compare train performance table.  
+Compare test performance table.  
+Identify best model.  
+Interpret influential factors.  
+
