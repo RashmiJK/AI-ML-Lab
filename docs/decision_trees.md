@@ -116,9 +116,18 @@ Two techniques of pruning.
     * Reduced Error Pruning - Identifies subtrees that do not improve accurcy on the validation set and prunes them.
 
 ### Hyperparameters
-Hyperparameters are the parameters of the learning algorithm itself, which means they are not directly learned from the data but are set prior to the training process. These parameters influence the training process and the structure of the model, making them crucial in optimizing model performance. They are usually set using techniques like cross-validation or grid search to find the best combination for the specific task.  
+Hyperparameters are the parameters of the learning algorithm itself, which means they are not directly learned from the data but are set prior to the training process. These parameters influence the training process and the structure of the model, making them crucial in optimizing model performance. In other words,  hyperparameters are configuration settings that are external to the model and whose values cannot be estimated from the data. They are parameters that you, as the data scientist or machine learning engineer, set before the training process begins. Think of them as the knobs and dials you adjust to control how the model learns. This is in contrast to model parameters, which are learned automatically by the model during training from the data (e.g., the weights and biases in a neural network). Hyperparameters are usually set using techniques like cross-validation or grid search to find the best combination for the specific task.  
 
-Example in Decision Trees:
+Here's an analogy:
+
+Imagine you're teaching a student to learn a new skill, like playing a musical instrument.
+
+* Model Parameters: The student's natural talent, their ability to learn from practice – these are internal and develop during the learning process.
+* Hyperparameters: The number of hours they practice each day, the type of instrument they use, the teacher they have – these are external factors you decide beforehand that influence how well and how quickly they learn.
+
+Choosing the right hyperparameters is crucial because they significantly impact the model's performance, training speed, and generalization ability (how well it performs on unseen data). The process of finding the best combination of hyperparameters is called hyperparameter tuning or optimization.
+
+Example of hyperparameter in Decision Trees:
 In decision trees, hyperparameters include the maximum depth of the tree (max_depth), the minimum number of samples required to split a node (min_samples_split), and the minimum number of samples required at a leaf node (min_samples_leaf). For instance, setting a max_depth can prevent overfitting by limiting the number of levels the tree can grow, ensuring the tree does not become too complex and capture noise in the training data.
 
 By carefully tuning these hyperparameters, you can significantly affect the model’s performance and its ability to generalize well to unseen data. The process of trying different aspects of all these parameters can be referred to as "hyperparameer tuning". Grid Search is a process of searching the best combination of hyperparameters from a predefined set of values. In Python GridSearchCV() is an implementation of Grid Search with Cross Validation.

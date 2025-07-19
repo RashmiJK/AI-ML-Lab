@@ -27,8 +27,9 @@ Understanding the relationship between model complexity and prediction error is 
 
 <img src="../images/model_complexity_vs_pred_error.png" alt="Prefix sum" width="500" height="300">  
 
-## Machine learning types
+## Machine learning algorithms
 
 1. [Linear regression](linear_regression.md)  
-2. Decision trees (decision_trees.md)
-3. K-Means Clustering
+2. [Logistic Regression](logistic_regression.md)
+2. [Decision trees](decision_trees.md)
+3. [Clustering](clustering.md)
