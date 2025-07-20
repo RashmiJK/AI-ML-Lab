@@ -10,7 +10,7 @@ Common terminologies used in DT:
 3. Branch /Subtree: 
 4. Decision Node:
 5. Leaf / Terminal Node:
-6. Splitting: It is the process of dividing a node into two or more sub-nodes. The most widely used splitting criteria anre Gini-index and Information Gain.
+6. Splitting: It is the process of dividing a node into two or more sub-nodes. The most widely used splitting criteria are Gini-index and Information Gain.
 7. Pruning: The process of removing the sub-nodes of a decision node. It is the opposite of the splitting process. This will help in tuning the tree to get a less biased decision.
 
 ![](../images/scatter_plot_decision_tree.png)
@@ -29,7 +29,7 @@ Both measures are used to evaluate the quality of splits in decision trees, with
 
 A confusion matrix is a tool used to evaluate the performance of a classification model. It provides a detailed breakdown of a model’s prediction outcomes against the actual values, allowing you to see how well the model distinguishes between classes. 
 
-Example-
+Example-  
 ![](../images/confusion_matrix.png)
 
 1. **Accuracy**: It is the proportion of correctly classified instances (both positive and negative) out of the total instances. Represents the proportion of correct predictions out of the total number of predictions.
@@ -130,7 +130,7 @@ Choosing the right hyperparameters is crucial because they significantly impact 
 Example of hyperparameter in Decision Trees:
 In decision trees, hyperparameters include the maximum depth of the tree (max_depth), the minimum number of samples required to split a node (min_samples_split), and the minimum number of samples required at a leaf node (min_samples_leaf). For instance, setting a max_depth can prevent overfitting by limiting the number of levels the tree can grow, ensuring the tree does not become too complex and capture noise in the training data.
 
-By carefully tuning these hyperparameters, you can significantly affect the model’s performance and its ability to generalize well to unseen data. The process of trying different aspects of all these parameters can be referred to as "hyperparameer tuning". Grid Search is a process of searching the best combination of hyperparameters from a predefined set of values. In Python GridSearchCV() is an implementation of Grid Search with Cross Validation.
+By carefully tuning these hyperparameters, you can significantly affect the model’s performance and its ability to generalize well to unseen data. The process of trying different aspects of all these parameters can be referred to as "hyperparameter tuning". Grid Search is a process of searching the best combination of hyperparameters from a predefined set of values. In Python GridSearchCV() is an implementation of Grid Search with Cross Validation.
 
 Cross validation is a mechanism that allows us to test a model repeatedly on data that was not used in training to build the model. A comon appraoch is simply to choose the tree with minimum cross validation error.
 
