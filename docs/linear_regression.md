@@ -119,7 +119,7 @@ where:
 - $k$ is the number of independent variables  
 
 ### Summary
-The two main objectives of linear regression discussed in the video are:
+The two main objectives of linear regression discussed are:
 
 1. Predicting or Forecasting the Value of the Outcome Variable: Linear regression aims to predict the outcome variable’s value based on the explanatory variables. This involves creating a model that best fits the observed data, allowing for accurate predictions.
 
@@ -134,7 +134,7 @@ The choice of metric in Regression depends on the specific goals of the analysis
 
 Test data is used to evaluate the performance of the trained model on unseen data. It helps assess how well the model generalizes to new observations.
 
-R-squared generally ranges from 0 to 1, where 0 indicates that the model does not explain any variability in the target variable, and 1 indicates a perfect fir where all variability is explained.
+R-squared generally ranges from 0 to 1, where 0 indicates that the model does not explain any variability in the target variable, and 1 indicates a perfect fit where all variability is explained.
 
 In regression models:
 * “Coefficients” and “intercept” are referred to as the model’s parameters.
@@ -145,11 +145,11 @@ In regression models:
 Aims to accurately represent the relationship between independent and dependent variables.
 * Goal: To find the optimal set of parameters that minimize prediction error for the dataset.
 
-1 Questions -  
-<1> Evaluation metrics, needs explanation.  
-<2> Ask for quick gradient descent explanation.  
-<3> pd.dummies vs OneHotEncoder.  
-<4> LabelEncoder vs using map on data frame. 
+Further reading -  
+
+1. Gradient descent  
+2. pd.dummies vs OneHotEncoder.  
+3. LabelEncoder vs using map on data frame. 
 
 ### Linear Regression Analysis Outline
 
