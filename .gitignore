@@ -14,3 +14,5 @@ data/machine_failure_data.csv
 data/retail_customer_segmentation.csv
 data/data_add_nik.csv
 data/Credit_Card.csv
+data/credit.csv
+data/pima-indians-diabetes.csv

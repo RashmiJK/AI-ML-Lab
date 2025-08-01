@@ -33,3 +33,22 @@ Understanding the relationship between model complexity and prediction error is 
 2. [Logistic Regression](logistic_regression.md)
 2. [Decision trees](decision_trees.md)
 3. [Clustering](clustering.md)
+
+## Advanced machine leaning concepts
+
+Techniques to improve model performance:
+- ensemble methods
+- cross-validation
+- hyperparameter tuning
+- imbalance handling
+
+
+
+Bagging and Random forest
+Boosting (AdaBoost, Gradient Boosting, XGBoost, Stacking)
+Model Tuning
+ensemble techniques => improve model performance => combine the techniques from multiple models
+Feature engineering techniques
+Hyperparameters
+
+
