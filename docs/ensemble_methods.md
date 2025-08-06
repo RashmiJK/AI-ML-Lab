@@ -43,6 +43,15 @@ These models involve using different types of algorithms within the same ensembl
 * At each split, a random subset of features is selected to determine the best split, increasing model diversity.
 * The number of features considered at each split (m) is a key hyperparameter that affects performance.
 
+![](../images/random_forest.png)
+
+##### How does feature randomization happen in Random Forest?
+![](../images/random_forest_feature_randomization.png)
+
+##### Choosing m for random forest algorithm
+![](../images/random_forest_choosing_m.png)
+
+
 ### Comparison - Bagging vs Random Forest
 
 
